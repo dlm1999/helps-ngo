@@ -1,0 +1,119 @@
+html,body{
+    margin: 0;
+    top: 0;
+    left: 0;
+    box-sizing: border-box;
+}
+.contactd{
+    display: inline-flex;
+    padding-left: 20px;
+    margin-top: 20px;
+    margin-left: auto;
+    cursor: pointer;
+    background-color: #fff;
+}
+.contactd i{
+    color: black;
+}
+.right{
+    justify-content: right;
+}
+#divnav{
+    margin-top: 40px;
+    margin-bottom: -10px;
+    border-radius: 20px;
+    background-color:rgb(53, 212, 13);
+    padding: 30px 30px 30px 30px;
+}
+#navbarul a{
+    color: white;
+}
+#navbarul a:hover{
+    color: coral;
+}
+#navbarul i{
+    color: black;
+}
+.logoimg{
+    height: 100px;
+    padding-left: 30%;
+}
+.navbar-nav{
+    float:right;
+}
+#donatebtn{
+    color: white;
+    background-color: black;
+    padding: 10px 10px 10px 10px;
+}
+#donatebtn:hover{
+    background-color: coral;
+    border: none;
+}
+.navbar-toggler{
+    background: #ec241d;
+    border: none;
+    padding: 10px 10px;
+    outline: none;
+}
+.navbar-toggler span {
+    display: block;
+    width: 22px;
+    height: 2px;
+    border: 1px;
+    margin-left: auto;
+    background: #fff;
+}
+.navbar-toggler span + span{
+    margin-top: 4px;
+    width:22px;
+    margin-left:auto ;
+}
+.navbar-toggler span + span + span{
+    width: 22px;
+    margin-left: auto;
+}
+.navbar-expand-lg .navbar-nav .nav-link{
+    padding: 2rem 1.2rem;
+    font-size: 1.4rem;
+    position: relative;
+}
+.navbar-expand-lg .navbar-nav .nav-link:hover{
+    border-top: solid #f05006;
+}
+.navbar-expand-lg .navbar-nav .nav-link.active{
+    border-top: 4px solid #ec241d;
+    color: red;
+}
+.dropdown-menu{
+    background-color: black;
+    color: blanchedalmond;
+}
+.title-font{
+    margin-top: 20px;
+}
+.abh{
+    font-size: 1rem;
+    font-weight: bold;
+}
+.object-cover object-center rounded one{
+    margin: auto;
+}
+#imgsec img{
+    transition: all .5s;
+}
+#imgsec img:hover{
+	transform: scale(1.1);
+}
+#imgsec2 img{
+    transition: all .5s;
+}
+#imgsec2 img:hover{
+    transform: scale(1.1);
+}
+#imgsec3 img{
+    transition: all .5s;
+}
+#imgsec3 img:hover{
+    transform: scale(1.1);
+}

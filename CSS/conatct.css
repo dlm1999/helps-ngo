@@ -1,0 +1,29 @@
+.fex {
+  background-color: #ffdf6c;
+}
+.contactd {
+  display: flex;
+  padding: 2rem 2rem;
+}
+#leftt {
+  float: right;
+  clear: left;
+  flex-direction: row-reverse;
+}
+#donatebtn {
+  margin-right: 2rem;
+  margin-left: 2rem;
+}
+
+#whitecol a {
+  color: white;
+  font-size: 23px;
+}
+#whitecol a i {
+  color: black;
+}
+#wall {
+  background-image: url("/images/hoo.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}

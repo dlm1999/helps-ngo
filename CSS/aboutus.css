@@ -1,0 +1,563 @@
+/*MAIN CONTENT*/
+
+.contactd{
+    display: inline-flex;
+    padding-left: 20px;
+    margin-top: 20px;
+    margin-left: auto;
+    cursor: pointer;
+}
+.contactd i{
+    color: black;
+}
+.right{
+    justify-content: right;
+}
+#divnav{
+    margin-top: 40px;
+    margin-bottom: -10px;
+    border-radius: 20px;
+    background-color:rgb(53, 212, 13);
+    padding: 30px 30px 30px 30px;
+}
+#navbarul a{
+    color: white;
+}
+#navbarul a:hover{
+    color: coral;
+}
+#navbarul i{
+    color: black;
+}
+.logoimg{
+    height: 100px;
+    padding-left: 30%;
+}
+.navbar-nav{
+    float:right;
+}
+#donatebtn{
+    color: white;
+    background-color: black;
+    padding: 10px 10px 10px 10px;
+}
+#donatebtn:hover{
+    background-color: coral;
+    border: none;
+}
+.navbar-toggler{
+    background: #ec241d;
+    border: none;
+    padding: 10px 10px;
+    outline: none;
+}
+.navbar-toggler span {
+    display: block;
+    width: 22px;
+    height: 2px;
+    border: 1px;
+    margin-left: auto;
+    background: #fff;
+}
+.navbar-toggler span + span{
+    margin-top: 4px;
+    width:22px;
+    margin-left:auto ;
+}
+.navbar-toggler span + span + span{
+    width: 22px;
+    margin-left: auto;
+}
+.navbar-expand-lg .navbar-nav .nav-link{
+    padding: 2rem 1.2rem;
+    font-size: 1.4rem;
+    position: relative;
+}
+.navbar-expand-lg .navbar-nav .nav-link:hover{
+    border-top: solid #f05006;
+}
+.navbar-expand-lg .navbar-nav .nav-link.active{
+    border-top: 4px solid #ec241d;
+    color: red;
+}
+.dropdown-menu{
+    background-color: black;
+    color: blanchedalmond;
+}
+
+.main2 {
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: center;
+
+  height: 100vh;
+
+  background: #202020;
+
+  margin-top: -2rem;
+
+}
+
+.container1 {
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: center;
+
+  height: 100%;
+
+  width: 100%;
+
+  flex-wrap: wrap;
+
+}
+
+.box1 {
+
+  position: relative;
+
+  width: 500px;
+
+  padding: 40px;
+
+  background: #fff;
+
+  box-shadow: 0 5px 15px rgba(15, 135, 205, 2);
+
+  border-radius: 4px;
+
+  margin: 20px;
+
+  overflow: hidden;
+
+  text-align: center;
+
+}
+
+.box1:before {
+
+  content: "";
+
+  width: 50%;
+
+  height: 100%;
+
+  position: absolute;
+
+  top: 0;
+
+  left: 0;
+
+  background: rgba(255, 255, 255, 0.2);
+
+  z-index: 1;
+
+}
+
+.box1 .icon1 {
+
+  position: relative;
+
+  width: 80px;
+
+  height: 80px;
+
+  background: #000;
+
+  color: #fff;
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: center;
+
+  margin: 0 auto;
+
+  font-size: 40px;
+
+  font-weight: 700;
+
+  border-radius: 50%;
+
+  transition: 1s;
+
+}
+
+.box1:nth-child(1) .icon1 {
+
+  box-shadow: 0 0 0 0 #ffdf6c;
+
+  background: #ffdf6c;
+
+}
+
+.box1:nth-child(1):hover .icon1 {
+
+  box-shadow: 0 0 0 400px #ffdf6c;
+
+}
+
+.box1:nth-child(2) .icon1 {
+
+  box-shadow: 0 0 0 0 #ffdf6c;
+
+  background: #ffdf6c;
+
+}
+
+.box1:nth-child(2):hover .icon1 {
+
+  box-shadow: 0 0 0 400px #ffdf6c;
+
+}
+
+.box1:nth-child(3) .icon1 {
+
+  box-shadow: 0 0 0 0 #ffdf6c;
+
+  background: #ffdf6c;
+
+}
+
+.box1:nth-child(3):hover .icon1 {
+
+  box-shadow: 0 0 0 400px #ffdf6c;
+
+}
+
+.box1 .content1 {
+
+  position: relative;
+
+  z-index: 2;
+
+  transition: 0.5s;
+
+  margin-top: 12rem;
+
+}
+
+.content1 p1 {
+
+  margin-top: 4rem;
+
+}
+
+.box1:hover .content1 {
+
+  color: #3f3f3f;
+
+}
+
+.box1 .content1 h3 {
+
+  font-size: 20px;
+
+  margin: 30px 0;
+
+  color: #364f6b;
+
+  font-weight: bolder;
+
+  font-size: 30px;
+
+}
+
+.box1 .content1 a {
+
+  display: inline-block;
+
+  padding: 10px 20px;
+
+  background: #fc5185;
+
+  border-radius: 4px;
+
+  text-decoration: none;
+
+  color: white;
+
+  font-weight: 700;
+
+  margin-top: 30px;
+
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+
+}
+
+
+
+.box1 .content1 a:hover {
+
+  transform: scale(1.2);
+
+}
+
+
+
+.whoarewe {
+
+  background-color: black;
+
+
+
+  box-shadow: 10px 10px 20px rgba(17, 7, 5, 5),
+
+    10px 4px 8px rgba(54, 46, 46, 0.06);
+
+  transform: skewY(0deg);
+
+}
+
+.whoarewesub {
+
+  background-color: #ffdf6c;
+
+
+
+  box-shadow: 10px 10px 20px rgba(17, 7, 5, 5),
+
+    10px 4px 8px rgba(54, 46, 46, 0.06);
+
+  overflow-y: hidden;
+
+}
+
+#straight {
+
+  transform: skewY(0deg);
+
+}
+
+
+
+.vision {
+
+  background-color: #bea548;
+
+  transform: skewY(0deg);
+
+  box-shadow: 10px 10px 20px rgba(17, 7, 5, 5),
+
+    10px 4px 8px rgba(54, 46, 46, 0.6);
+
+}
+
+.visionsub {
+
+  background-color: #202020;
+
+  transform: skewY(0deg);
+
+  box-shadow: 10px 10px 20px rgba(17, 7, 5, 5),
+
+    10px 4px 8px rgba(54, 46, 46, 0.6);
+
+}
+
+
+
+.aimsobjectives {
+
+  background-color: #bea548;
+
+  transform: skewY(-6deg);
+
+  box-shadow: 10px 10px 20px rgba(17, 7, 5, 5),
+
+    10px 4px 8px rgba(54, 46, 46, 0.6);
+
+}
+
+.aimsobjectivessub {
+
+  background-color: #3f3f3f;
+
+  transform: skewY(6deg);
+
+  box-shadow: 10px 10px 20px rgba(17, 7, 5, 5),
+
+    10px 4px 8px rgba(54, 46, 46, 0.6);
+
+}
+
+.ourteam {
+
+  background-color: #bea548;
+
+  transform: skewY(-6deg);
+
+  box-shadow: 10px 10px 20px rgba(17, 7, 5, 5),
+
+    10px 4px 8px rgba(54, 46, 46, 0.6);
+
+}
+
+.ourteamsub {
+
+  background-color: #3f3f3f;
+
+  transform: skewY(6deg);
+
+  box-shadow: 10px 10px 20px rgba(17, 7, 5, 5),
+
+    10px 4px 8px rgba(54, 46, 46, 0.6);
+
+}
+
+.ifujoinus {
+
+  background-image: url("/images/hnds.jpg");
+
+  background-size: cover;
+
+  background-repeat: no-repeat;
+
+}
+
+#divnav {
+
+  height: 150px;
+
+}
+
+#donatebtn {
+
+  height: 40px;
+
+  width: 100px;
+
+  background-color: #000;
+
+  margin-left: 1rem;
+
+}
+
+#donatebtn:hover {
+
+  background-color: #fd7e14;
+
+  height: 40px;
+
+  width: 100px;
+
+}
+
+#cent {
+
+  margin: auto;
+
+  margin-top: 1rem;
+
+}
+
+.fex {
+
+  background-color: #ffdf6c;
+
+  margin-bottom: 2rem;
+
+}
+
+.fex li i {
+
+  color: #000;
+
+}
+
+.contactd {
+
+  display: flex;
+
+  padding: 2rem 2rem;
+
+}
+
+#leftt {
+
+  float: right;
+
+  clear: left;
+
+  flex-direction: row-reverse;
+
+}
+
+
+
+#whitecol a {
+
+  color: white;
+
+  font-size: 23px;
+
+}
+
+#whitecol a i {
+
+  color: black;
+
+}
+
+
+
+/**responsive**/
+
+
+
+@media only screen and (min-width: 375px) and (max-width: 812px) {
+
+  .whatwedo {
+
+    margin-top: 5rem;
+
+  }
+
+  .ourteam {
+
+    margin-top: 80rem;
+
+  }
+
+  #cent {
+
+    margin-top: 1rem;
+
+  }
+
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1366px) {
+
+  .whatwedo {
+
+    margin-top: 4rem;
+
+  }
+
+  .box1 {
+
+    margin-top: 5rem;
+
+  }
+
+  .ourteam {
+
+    margin-top: 40rem;
+
+  }
+
+  #cent {
+
+    margin-top: 1rem;
+
+  }
+
+}
+
